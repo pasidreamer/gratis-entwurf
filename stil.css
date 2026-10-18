@@ -806,3 +806,6 @@ fieldset.feld { border: 0; margin: 0; padding: 0; }
 /* Steckbrief mit Knopf (17.10.2026, Pascal: mehr Vertrieb) */
 .ich-schluss { color: #fff !important; }
 .ich-knopf { align-self: flex-start; margin-top: 4px; }
+
+/* Foto auf Tablets begrenzen: untereinander sonst bildschirmfüllend (18.10.2026, iPad-Hochformat) */
+@media (max-width: 899px) { .ich-bild { width: 100%; max-width: 440px; justify-self: center; } }
